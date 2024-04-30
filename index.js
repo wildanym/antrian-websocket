@@ -17,4 +17,4 @@ wss.on('connection', function connection(ws) {
 
 app.get('/', (req, res) => res.send('hello world s'));
 
-server.listen(8080, () => console.log('listening on port 8080'));
+server.listen(8000, () => console.log('listening on port 8000'));
